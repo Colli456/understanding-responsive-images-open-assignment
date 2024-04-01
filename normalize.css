@@ -422,3 +422,29 @@ td,
 th {
   padding: 0;
 }
+
+body {
+  background-color: rgba(0, 229, 255, 0.11);
+gap: 2rem;
+/* width: min(100% - 2rem, 60ch); */
+margin-inline: auto;
+padding-block: 1rem;
+}
+
+figure.fw {
+  max-width: 50%;
+  align-items: center;
+}
+
+/* figure.half {
+  width: 50%;
+  display: block;
+  grid-auto-columns: 60px;
+} */
+
+.wrapper {
+  width: 50%;
+  display: grid;
+  grid-column: 2;
+    grid-row: 3;
+}
