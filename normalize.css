@@ -426,7 +426,7 @@ th {
 body {
   background-color: rgba(0, 229, 255, 0.11);
 gap: 2rem;
-/* width: min(100% - 2rem, 60ch); */
+/* width: min(100% - 1rem, 60ch);  */
 margin-inline: auto;
 padding-block: 1rem;
 }
@@ -445,6 +445,12 @@ figure.fw {
 .wrapper {
   width: 50%;
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
   grid-column: 2;
-    grid-row: 3;
+  grid-row: 3;
+}
+
+p {
+  font-size: medium;
 }
